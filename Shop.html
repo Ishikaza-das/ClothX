@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothex</title>
+    <link rel="stylesheet" href="Shop.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- boxicon link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- cdnjs link  SVG , FONT , CSS toolkit-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header mai Clothex ka img dalna -->
+    <header>
+      <a href="#" class="logo"><img src="Photo/logo.jpg" alt="" /></a>
+      <ul class="navmenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Page</a></li>
+        <!-- <li><a href="ShopLogin.html">Accounts</a></li> -->
+        <!-- <li><button class="button">Login</button></li> -->
+      </ul>
+
+      <div class="nav-icon">
+        <a href="#"><i class="bx bx-search"></i></a>
+        <!--link of search -->
+        <a href="#"><i class="bx bx-user"></i></a>
+        <!--link of user -->
+        <a href="#"><i class="bx bx-cart"></i></a>
+        <!--link of cart -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <button class="button" id="form-open">Login</button></li>
+      </div>
+    </header>
+
+    <!-- Login -->
+    <scetion class="login">
+      <div class="form_container">
+         <i class="bx bx-x form_close"></i>      
+          
+         <!-- login -->
+
+         <div class="form login_form">
+          <form action="#">
+            <h2>Login</h2>
+               
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required>
+              <i class="bx bx-envelope email"></i>
+            </div>
+                
+
+            <div class="input_box">
+              <input type="password" placeholder="Enter your password" required>
+              <i class="bx bxs-lock-alt password"></i>
+              <i class="bx bxs-hide pw_hide"></i>
+            </div>
+
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check">
+                <label for="check">Remember Me</label>
+              </span>
+              <a href="#" class="forgot_pw">Forgot Password</a>
+            </div>
+
+            <button class="button">Login Now</button>
+
+            
+            <div class="login_signup">
+              Don't have an account ? <a href="#" id="signup">Signup</a>
+            </div>
+            
+
+          </form>
+         </div>
+
+         <!-- signup -->
+
+         <div class="form signup_form">
+          <form action="#">
+            <h2>Sigin</h2>
+                
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required>
+              <i class="bx bx-envelope email"></i>
+            </div>
+                
+
+            <div class="input_box">
+              <input type="password" placeholder="Create password" required>
+              <i class="bx bxs-lock-alt password"></i>
+              <i class="bx bxs-hide pw_hide"></i>
+            </div>
+                 
+
+            <div class="input_box">
+              <input type="password" placeholder="Confirm password" required>
+              <i class="bx bxs-lock-alt password"></i>
+              <i class="bx bxs-hide pw_hide"></i>
+            </div>
+
+            <button class="button">Signup Now</button>
+
+            
+            
+            <div class="login_signup">
+              Already have an account ? <a href="#" id="login">Login</a>
+            </div>
+
+          </form>
+         </div>
+      </div>
+    </scetion>
+    <!-- form end -->
+
+    <section class="main-home">
+      <!-- <img src="Photo/19.jpg" alt=""> -->
+      <div class="main-text">
+        <h5>Winter Collection</h5>
+        <h1>
+          New Ethenic
+          <br />
+          Collection
+        </h1>
+        <p>Trends at Home</p>
+        <a href="" class="main-btn"
+          >Shop Now<i class="bx bx-right-arrow-alt"></i
+        ></a>
+      </div>
+
+      <div class="down-arrow">
+        <a href="#treanding" class="down"
+          ><i class="bx bx-down-arrow-alt"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- treanding-product-secetion -->
+    <section class="trending-product" id="treanding">
+      <div class="center-text">
+        <h2>Our Trending <span>Products</span></h2>
+      </div>
+      <!-- product 1 -->
+      <div class="products">
+        <div class="row">
+          <img src="Photo/1.jpg" alt="" />
+          <div class="product-text">
+            <h5>Sale</h5>
+          </div>
+          <div class="heart-icon">
+            <i class="bx bxs-heart"></i>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+
+          <div class="price">
+            <h4>Skin Set</h4>
+            <p>$999</p>
+          </div>
+        </div>
+        <!-- product 2 -->
+        <div class="row">
+          <img src="Photo/14.jpg" alt="" />
+          <div class="product-text">
+            <h5>New</h5>
+          </div>
+          <div class="heart-icon">
+            <i class="bx bxs-heart"></i>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+
+          <div class="price">
+            <h4>Skin Set</h4>
+            <p>$999</p>
+          </div>
+        </div>
+        <!-- product 3 -->
+        <div class="row">
+          <img src="Photo/3.jpg" alt="" />
+          <div class="product-text">
+            <h5>Hot</h5>
+          </div>
+          <div class="heart-icon">
+            <i class="bx bxs-heart"></i>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+
+          <div class="price">
+            <h4>Skin Set</h4>
+            <p>$999</p>
+          </div>
+        </div>
+        <!-- product 4 -->
+        <div class="row">
+          <img src="Photo/4.jpg" alt="" />
+          <div class="product-text">
+            <h5>Sale</h5>
+          </div>
+          <div class="heart-icon">
+            <i class="bx bxs-heart"></i>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+
+          <div class="price">
+            <h4>Skin Set</h4>
+            <p>$999</p>
+          </div>
+        </div>
+        <!-- product 5 -->
+        <div class="row">
+          <img src="Photo/5.jpg" alt="" />
+          <div class="product-text">
+            <h5>Sale</h5>
+          </div>
+          <div class="heart-icon">
+            <i class="bx bxs-heart"></i>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+
+          <div class="price">
+            <h4>Skin Set</h4>
+            <p>$999</p>
+          </div>
+        </div>
+        <!-- product 6 -->
+        <div class="row">
+          <img src="Photo/6.jpg" alt="" />
+          <div class="product-text">
+            <h5>New</h5>
+          </div>
+          <div class="heart-icon">
+            <i class="bx bxs-heart"></i>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+
+          <div class="price">
+            <h4>Skin Set</h4>
+            <p>$999</p>
+          </div>
+        </div>
+        <!-- product 7 -->
+        <div class="row">
+          <img src="Photo/7.jpg" alt="" />
+          <div class="product-text">
+            <h5>Hot</h5>
+          </div>
+          <div class="heart-icon">
+            <i class="bx bxs-heart"></i>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+
+          <div class="price">
+            <h4>Skin Set</h4>
+            <p>$999</p>
+          </div>
+        </div>
+        <!-- product 8 -->
+        <div class="row">
+          <img src="Photo/8.jpg" alt="" />
+          <div class="product-text">
+            <h5>Sale</h5>
+          </div>
+          <div class="heart-icon">
+            <i class="bx bxs-heart"></i>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+
+          <div class="price">
+            <h4>Skin Set</h4>
+            <p>$999</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="Shop.js"></script>
+
+    <!-- client-review-section -->
+    <section class="client-review">
+      <div class="review">
+        <h3>Client Reviews</h3>
+        <img src="Photo/client1.jpg" alt="" />
+        <p>
+          I recently purchased cloth from this website and I couldn't be happier
+          with my purchase. The cloths were exactly as described and they
+          arrived quickly. I also appreciated the free shipping and easy
+          checkout process. I will definitely be shopping here again in the
+          future!
+        </p>
+        <h2>Soumen Bhunia</h2>
+        <p>CEO of RealMe</p>
+      </div>
+
+      <div class="review">
+        <img src="Photo/client2.jpg" alt="" />
+        <p>
+          I recently purchased cloth from this website and I couldn't be happier
+          with my purchase. The cloths were exactly as described and they
+          arrived quickly. I also appreciated the free shipping and easy
+          checkout process. I will definitely be shopping here again in the
+          future!
+        </p>
+        <h2>Soubhaghya Ranjan Dash</h2>
+        <p>CEO of Oppo</p>
+      </div>
+    </section>
+
+    <!-- Update news section -->
+    <section class="upadte-news">
+      <div class="up-center-text">
+        <h2>New Update</h2>
+      </div>
+      <div class="update-chart">
+        <div class="cart">
+          <img src="Photo/21.jpg" alt="" />
+          <h2>15 April 2022</h2>
+          <h4>Let's bring sale on this summer</h4>
+          <p>
+            Say goodbye to the guesswork! Our new Virtual Try-On feature
+            utilizes advanced augmented reality technology to allow you to
+            virtually try on clothes from the comfort of your own home. Simply
+            upload a photo or use your webcam to see how different clothing
+            items fit and look on you. This feature provides a realistic and
+            interactive way to ensure the perfect fit before making a purchase.
+          </p>
+          <h6>Continue Reading..</h6>
+        </div>
+
+        <div class="cart">
+          <img src="Photo/22.jpg" alt="" />
+          <h2>15 April 2022</h2>
+          <h4>Let's bring sale on this summer</h4>
+          <p>
+            Discover your fashion inspiration with our improved Style
+            Recommendations feature. Our intelligent algorithm analyzes your
+            browsing and purchase history, as well as your preferred styles, to
+            suggest personalized clothing options that match your taste. Explore
+            new styles, trends, and outfits tailored just for you.
+          </p>
+          <h6>Continue Reading..</h6>
+        </div>
+
+        <div class="cart">
+          <img src="Photo/23.jpg" alt="" />
+          <h2>15 April 2022</h2>
+          <h4>Let's bring sale on this summer</h4>
+          <p>
+            We understand the increasing trend of mobile shopping. Our website
+            is now fully optimized for mobile devices, providing a seamless and
+            user-friendly experience, whether you're shopping on your smartphone
+            or tablet. Enjoy effortless browsing, easy navigation, and secure
+            checkout on the go.
+          </p>
+          <h6>Continue Reading..</h6>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section  -->
+    <section class="contact">
+      <div class="contact-info">
+        <div class="first-info">
+          <img src="Photo/logo.jpg" alt="" , height="100" />
+          <p>Biju Patnaik Chowk , <br />Cuttack, <br />Odisha, India</p>
+          <p>6371640240</p>
+          <p>yorichiyuta@gmail.com</p>
+
+          <div class="social-icon">
+            <a href=""><i class="bx bxl-facebook-circle"></i></a>
+            <a href=""><i class="bx bxl-twitter"></i></a>
+            <a href=""><i class="bx bxl-instagram-alt"></i></a>
+            <a href=""><i class="bx bxl-whatsapp"></i></a>
+            <a href=""><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="second-info">
+          <h4>Support</h4>
+          <p>Contact Us</p>
+          <p>About Page</p>
+          <p>shopping</p>
+          <p>Privacy</p>
+        </div>
+
+        <div class="third-info">
+          <h4>Shop</h4>
+          <p>Men's Shopping</p>
+          <p>Women's Shopping</p>
+          <p>Kid's Shopping</p>
+          <p>Discounts</p>
+        </div>
+        <div class="fourth-info">
+          <h4>Info</h4>
+          <p>About</p>
+          <p>Purchase</p>
+          <p>Affilate</p>
+          <p>Login</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="end-text">
+      <p>Copyright © @2023. All Rights Reserved By Ritesh Das</p>
+    </div>
+  </body>
+</html>
